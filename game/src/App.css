@@ -1,0 +1,23 @@
+body {
+  background-color: lightpink;
+}
+
+.headerOfplayer {
+  border: 2px solid yellow
+}
+
+.game {
+  display:inline-block;
+  border: 1px solid red;
+  text-align: center;
+  width: '100%';
+  height: '70%';
+  box-sizing: 'border-box'
+}
+
+.styleOfPlayer {
+
+  display: inline-block;
+    margin: 10px;
+    border: 2px solid blue
+}
