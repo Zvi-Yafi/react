@@ -11,8 +11,7 @@ const Test = ({ nameCountrys }) => {
       const data = await res.json()
         setNameCountry(data[0].name.common)
         setFleg(data[0].flags.svg) 
-        
-
+ 
  }
   useEffect(() => {
     getCountry()
